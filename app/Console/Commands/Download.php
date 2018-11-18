@@ -34,7 +34,7 @@ class Download extends Command
     protected $photos;
 
     /**
-     * @var Storage
+     * @var \Illuminate\Filesystem\FilesystemManager
      */
     protected $storage;
 
@@ -48,7 +48,6 @@ class Download extends Command
         parent::__construct();
 
         $this->twitter = app(Client::class);
-
         $this->photos = app(Photos::class);
         $this->storage = app('filesystem');
     }
@@ -56,7 +55,8 @@ class Download extends Command
     /**
      * Execute the console command.
      *
-     * @return mixed
+     * @return void
+     * @throws
      */
     public function handle()
     {
@@ -147,7 +147,7 @@ class Download extends Command
         info($url);
 
         /**
-         * @var \mpyw\Cowitter\Media
+         * @var \mpyw\Cowitter\Media $response
          */
         $response = $this->twitter->getOut($url);
 
