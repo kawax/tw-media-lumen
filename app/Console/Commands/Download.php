@@ -4,8 +4,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use mpyw\Cowitter\Client;
-use Revolution\Google\Photos\Facades\Photos;
-use Storage;
+use Revolution\Google\Photos\Contracts\Factory as Photos;
 use Carbon\Carbon;
 
 class Download extends Command
@@ -30,6 +29,16 @@ class Download extends Command
     protected $twitter;
 
     /**
+     * @var Photos
+     */
+    protected $photos;
+
+    /**
+     * @var Storage
+     */
+    protected $storage;
+
+    /**
      * Create a new command instance.
      *
      * @return void
@@ -44,6 +53,9 @@ class Download extends Command
             config('twitter.ACCESS_TOKEN'),
             config('twitter.ACCESS_TOKEN_SECRET'),
         ]);
+
+        $this->photos = app(Photos::class);
+        $this->storage = app('filesystem');
     }
 
     /**
@@ -60,8 +72,8 @@ class Download extends Command
             //            'exclude_replies'  => true,
         ];
 
-        if (Storage::disk('local')->exists('since_id')) {
-            $since_id = Storage::disk('local')->get('since_id');
+        if ($this->storage->disk('local')->exists('since_id')) {
+            $since_id = $this->storage->disk('local')->get('since_id');
             $options['since_id'] = $since_id;
         } else {
             $since_id = 0;
@@ -94,7 +106,7 @@ class Download extends Command
             }
         });
 
-        Storage::disk('local')->put('since_id', $since_id);
+        $this->storage->disk('local')->put('since_id', $since_id);
         info('since_id end: ' . $since_id);
     }
 
@@ -148,7 +160,7 @@ class Download extends Command
         $file = pathinfo($path, PATHINFO_BASENAME);
 
         // Google Drive
-        Storage::cloud()->put($file, $response->getBinaryString());
+        $this->storage->cloud()->put($file, $response->getBinaryString());
 
         //Google Photos
         $this->putPhotos($file, $response->getBinaryString());
@@ -168,12 +180,12 @@ class Download extends Command
         ];
 
         try {
-            $uploadToken = Photos::setAccessToken($token)->upload($name, $file);
+            $uploadToken = $this->photos->setAccessToken($token)->upload($name, $file);
 
-            Photos::batchCreate([$uploadToken]);
+            $this->photos->batchCreate([$uploadToken]);
             //, config('photos.album_id')
         } catch (\Exception $e) {
-            \Log::error($e->getMessage());
+            info($e->getMessage());
         }
     }
 }
