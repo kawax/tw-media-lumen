@@ -47,12 +47,7 @@ class Download extends Command
     {
         parent::__construct();
 
-        $this->twitter = new Client([
-            config('twitter.CONSUMER_KEY'),
-            config('twitter.CONSUMER_SECRET'),
-            config('twitter.ACCESS_TOKEN'),
-            config('twitter.ACCESS_TOKEN_SECRET'),
-        ]);
+        $this->twitter = app(Client::class);
 
         $this->photos = app(Photos::class);
         $this->storage = app('filesystem');
