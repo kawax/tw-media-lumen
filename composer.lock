@@ -345,16 +345,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.92",
+            "version": "v0.93",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "8d8f7faebe21e4cbf94921c97af6e02daca7cefb"
+                "reference": "c40ae41ebde3a0f5435ddd855ecbdf04c1783de0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/8d8f7faebe21e4cbf94921c97af6e02daca7cefb",
-                "reference": "8d8f7faebe21e4cbf94921c97af6e02daca7cefb",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/c40ae41ebde3a0f5435ddd855ecbdf04c1783de0",
+                "reference": "c40ae41ebde3a0f5435ddd855ecbdf04c1783de0",
                 "shasum": ""
             },
             "require": {
@@ -378,7 +378,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2019-03-31T00:23:05+00:00"
+            "time": "2019-04-06T00:22:58+00:00"
         },
         {
             "name": "google/auth",
@@ -4086,20 +4086,20 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.8.1",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "3e01bdad3e18354c3dce54466b7fbe33a9f9f7f8"
+                "reference": "78af75148f9fdd34ea727c8b529a9b4a8f7b740c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/3e01bdad3e18354c3dce54466b7fbe33a9f9f7f8",
-                "reference": "3e01bdad3e18354c3dce54466b7fbe33a9f9f7f8",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/78af75148f9fdd34ea727c8b529a9b4a8f7b740c",
+                "reference": "78af75148f9fdd34ea727c8b529a9b4a8f7b740c",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1"
+                "php": "^7.2"
             },
             "replace": {
                 "myclabs/deep-copy": "self.version"
@@ -4107,6 +4107,8 @@
             "require-dev": {
                 "doctrine/collections": "^1.0",
                 "doctrine/common": "^2.6",
+                "phpstan/phpstan": "^0.9.2",
+                "phpstan/phpstan-phpunit": "^0.9.4",
                 "phpunit/phpunit": "^7.1"
             },
             "type": "library",
@@ -4130,7 +4132,7 @@
                 "object",
                 "object graph"
             ],
-            "time": "2018-06-11T23:09:50+00:00"
+            "time": "2018-10-30T00:14:44+00:00"
         },
         {
             "name": "phar-io/manifest",
