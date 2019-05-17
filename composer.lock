@@ -2091,16 +2091,16 @@
         },
         {
             "name": "mpyw/cowitter",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mpyw/cowitter.git",
-                "reference": "447346fc053eb689cfbef7f59f41d97a4faefa62"
+                "reference": "f77bfa1cafe12927a987aa826b2fbf6433845c35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mpyw/cowitter/zipball/447346fc053eb689cfbef7f59f41d97a4faefa62",
-                "reference": "447346fc053eb689cfbef7f59f41d97a4faefa62",
+                "url": "https://api.github.com/repos/mpyw/cowitter/zipball/f77bfa1cafe12927a987aa826b2fbf6433845c35",
+                "reference": "f77bfa1cafe12927a987aa826b2fbf6433845c35",
                 "shasum": ""
             },
             "require": {
@@ -2148,7 +2148,7 @@
                 "upload",
                 "video"
             ],
-            "time": "2018-12-05T09:34:03+00:00"
+            "time": "2019-05-16T13:42:58+00:00"
         },
         {
             "name": "nao-pon/flysystem-cached-extra",
@@ -2242,16 +2242,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.17.1",
+            "version": "2.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "96acbc0c03782e8115156dd4dd8b736267155066"
+                "reference": "8322b7bd1805be31867c13bf3cdaab948a0dd406"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/96acbc0c03782e8115156dd4dd8b736267155066",
-                "reference": "96acbc0c03782e8115156dd4dd8b736267155066",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/8322b7bd1805be31867c13bf3cdaab948a0dd406",
+                "reference": "8322b7bd1805be31867c13bf3cdaab948a0dd406",
                 "shasum": ""
             },
             "require": {
@@ -2298,7 +2298,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2019-04-27T18:04:27+00:00"
+            "time": "2019-05-16T18:44:35+00:00"
         },
         {
             "name": "nikic/fast-route",
