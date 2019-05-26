@@ -2937,16 +2937,16 @@
         },
         {
             "name": "revolution/laravel-google-photos",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-google-photos.git",
-                "reference": "b50e6c61960bd817e2b66fb69b5e453f157841a5"
+                "reference": "91292fc32d605db899bf84704c42d0408ebcfb77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-google-photos/zipball/b50e6c61960bd817e2b66fb69b5e453f157841a5",
-                "reference": "b50e6c61960bd817e2b66fb69b5e453f157841a5",
+                "url": "https://api.github.com/repos/kawax/laravel-google-photos/zipball/91292fc32d605db899bf84704c42d0408ebcfb77",
+                "reference": "91292fc32d605db899bf84704c42d0408ebcfb77",
                 "shasum": ""
             },
             "require": {
@@ -2991,7 +2991,7 @@
                 "laravel",
                 "photos"
             ],
-            "time": "2019-02-27T09:12:16+00:00"
+            "time": "2019-05-26T02:08:57+00:00"
         },
         {
             "name": "symfony/console",
