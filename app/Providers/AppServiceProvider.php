@@ -2,11 +2,39 @@
 
 namespace App\Providers;
 
+use Google_Service_PhotosLibrary_BatchCreateMediaItemsRequest as BatchCreateMediaItemsRequest;
+use Google_Service_PhotosLibrary_NewMediaItem as NewMediaItem;
+use Google_Service_PhotosLibrary_SimpleMediaItem as SimpleMediaItem;
 use Illuminate\Support\ServiceProvider;
 use mpyw\Cowitter\Client;
+use Revolution\Google\Photos\Facades\Photos;
 
 class AppServiceProvider extends ServiceProvider
 {
+    public function boot()
+    {
+        Photos::macro('createWithDescription',
+            function ($uploadToken, $description = '', $optParams = []) {
+                $simple = new SimpleMediaItem([
+                    'uploadToken' => $uploadToken,
+                ]);
+
+                $newMediaItem = new NewMediaItem([
+                    'simpleMediaItem' => $simple,
+                    'description'     => $description,
+                ]);
+
+                $newMediaItems = [$newMediaItem];
+
+                $request = new BatchCreateMediaItemsRequest([
+                    'newMediaItems' => $newMediaItems,
+                    'albumId'       => '',
+                ]);
+
+                return $this->serviceMediaItems()->batchCreate($request, $optParams)->toSimpleObject();
+            });
+    }
+
     /**
      * Register any application services.
      *

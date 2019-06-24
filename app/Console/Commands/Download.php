@@ -39,6 +39,16 @@ class Download extends Command
     protected $storage;
 
     /**
+     * @var string
+     */
+    protected $text;
+
+    /**
+     * @var string
+     */
+    protected $user;
+
+    /**
      * Create a new command instance.
      *
      * @return void
@@ -74,7 +84,7 @@ class Download extends Command
             $since_id = 0;
         }
 
-        info('since_id start: ' . $since_id);
+        info('since_id start: '.$since_id);
 
         $tweets = $this->twitter->get('statuses/home_timeline', $options);
 
@@ -91,6 +101,10 @@ class Download extends Command
                 return;
             }
 
+            $this->text = $tweet->text;
+            $this->user = $tweet->user->screen_name;
+            $this->info($this->user.' : '.$this->text);
+
             $media = $tweet->extended_entities->media;
             foreach ($media as $medium) {
                 if ($medium->type === 'photo') {
@@ -102,7 +116,7 @@ class Download extends Command
         });
 
         $this->storage->disk('local')->put('since_id', $since_id);
-        info('since_id end: ' . $since_id);
+        info('since_id end: '.$since_id);
     }
 
     /**
@@ -140,7 +154,7 @@ class Download extends Command
     /**
      * ファイルをダウンロードして保存.
      *
-     * @param string $url
+     * @param  string  $url
      */
     private function download(string $url)
     {
@@ -177,10 +191,12 @@ class Download extends Command
         try {
             $uploadToken = $this->photos->setAccessToken($token)->upload($name, $file);
 
-            $this->photos->batchCreate([$uploadToken]);
+            $this->photos->createWithDescription($uploadToken, $this->user.':'.$this->text);
+            //$this->photos->batchCreate([$uploadToken]);
             //, config('photos.album_id')
         } catch (\Exception $e) {
             info($e->getMessage());
+            $this->info($e->getMessage());
         }
     }
 }
