@@ -189,16 +189,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "2.1.8",
+            "version": "2.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "c26463ff9241f27907112fbcd0c86fa670cfef98"
+                "reference": "128cc721d771ec2c46ce59698f4ca42b73f71b25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/c26463ff9241f27907112fbcd0c86fa670cfef98",
-                "reference": "c26463ff9241f27907112fbcd0c86fa670cfef98",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/128cc721d771ec2c46ce59698f4ca42b73f71b25",
+                "reference": "128cc721d771ec2c46ce59698f4ca42b73f71b25",
                 "shasum": ""
             },
             "require": {
@@ -242,7 +242,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2019-05-16T22:02:54+00:00"
+            "time": "2019-06-23T10:14:27+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -351,16 +351,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.103",
+            "version": "v0.104",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "01f9ada6e0f37515419cbf457144ccefee70e522"
+                "reference": "d41fea99f90d7935bd57cf654bf271072fe584f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/01f9ada6e0f37515419cbf457144ccefee70e522",
-                "reference": "01f9ada6e0f37515419cbf457144ccefee70e522",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/d41fea99f90d7935bd57cf654bf271072fe584f1",
+                "reference": "d41fea99f90d7935bd57cf654bf271072fe584f1",
                 "shasum": ""
             },
             "require": {
@@ -384,7 +384,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2019-06-16T00:23:11+00:00"
+            "time": "2019-06-23T00:23:39+00:00"
         },
         {
             "name": "google/auth",
@@ -2464,16 +2464,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.19",
+            "version": "2.0.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "d2085db7b7394baa071a69c8f9159723c250f2ba"
+                "reference": "d6819a55b05e123db1e881d8b230d57f912126be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/d2085db7b7394baa071a69c8f9159723c250f2ba",
-                "reference": "d2085db7b7394baa071a69c8f9159723c250f2ba",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/d6819a55b05e123db1e881d8b230d57f912126be",
+                "reference": "d6819a55b05e123db1e881d8b230d57f912126be",
                 "shasum": ""
             },
             "require": {
@@ -2552,7 +2552,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2019-06-20T03:34:11+00:00"
+            "time": "2019-06-23T16:33:11+00:00"
         },
         {
             "name": "psr/cache",
