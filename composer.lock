@@ -1849,16 +1849,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.62",
+            "version": "1.0.63",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "14dd5d7dff5fbc29ca9a2a53ff109760e40d91a0"
+                "reference": "8132daec326565036bc8e8d1876f77ec183a7bd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/14dd5d7dff5fbc29ca9a2a53ff109760e40d91a0",
-                "reference": "14dd5d7dff5fbc29ca9a2a53ff109760e40d91a0",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/8132daec326565036bc8e8d1876f77ec183a7bd6",
+                "reference": "8132daec326565036bc8e8d1876f77ec183a7bd6",
                 "shasum": ""
             },
             "require": {
@@ -1929,7 +1929,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2019-12-29T14:46:55+00:00"
+            "time": "2020-01-04T16:30:31+00:00"
         },
         {
             "name": "league/flysystem-cached-adapter",
@@ -2976,21 +2976,21 @@
         },
         {
             "name": "revolution/laravel-google-photos",
-            "version": "3.0.1",
+            "version": "3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-google-photos.git",
-                "reference": "a5e95bcbf39b72ccd96bc90d6fd7c154ff32fdeb"
+                "reference": "89282d32dc7c89b7b8d957deacee1472932b79ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-google-photos/zipball/a5e95bcbf39b72ccd96bc90d6fd7c154ff32fdeb",
-                "reference": "a5e95bcbf39b72ccd96bc90d6fd7c154ff32fdeb",
+                "url": "https://api.github.com/repos/kawax/laravel-google-photos/zipball/89282d32dc7c89b7b8d957deacee1472932b79ac",
+                "reference": "89282d32dc7c89b7b8d957deacee1472932b79ac",
                 "shasum": ""
             },
             "require": {
-                "guzzlehttp/guzzle": "^6.3",
-                "php": "^7.2",
+                "guzzlehttp/guzzle": "^6.3||^7.0",
+                "php": "^7.2||^8.0",
                 "pulkitjalan/google-apiclient": "^4.0"
             },
             "require-dev": {
@@ -3030,7 +3030,7 @@
                 "laravel",
                 "photos"
             ],
-            "time": "2019-10-30T00:07:43+00:00"
+            "time": "2020-01-05T06:07:43+00:00"
         },
         {
             "name": "symfony/console",
