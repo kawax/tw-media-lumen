@@ -2834,21 +2834,21 @@
         },
         {
             "name": "pulkitjalan/google-apiclient",
-            "version": "4.0.0",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pulkitjalan/google-apiclient.git",
-                "reference": "ad53d054dc60d3363f862dc9c4f965dc40f3b314"
+                "reference": "e849e4a79cb9ae1e489b2690c42eaaa5c83ebdd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pulkitjalan/google-apiclient/zipball/ad53d054dc60d3363f862dc9c4f965dc40f3b314",
-                "reference": "ad53d054dc60d3363f862dc9c4f965dc40f3b314",
+                "url": "https://api.github.com/repos/pulkitjalan/google-apiclient/zipball/e849e4a79cb9ae1e489b2690c42eaaa5c83ebdd5",
+                "reference": "e849e4a79cb9ae1e489b2690c42eaaa5c83ebdd5",
                 "shasum": ""
             },
             "require": {
-                "google/apiclient": "^2.2",
-                "illuminate/support": "~5.8.0|^6.0",
+                "google/apiclient": "^2.4",
+                "illuminate/support": "^5.8|^6.0|^7.0",
                 "php": "^7.2"
             },
             "require-dev": {
@@ -2858,7 +2858,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.0.x-dev"
+                    "dev-master": "4.1.x-dev"
                 },
                 "laravel": {
                     "providers": [
@@ -2890,7 +2890,7 @@
                 "google",
                 "laravel"
             ],
-            "time": "2019-09-06T06:43:35+00:00"
+            "time": "2020-03-04T10:04:12+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
