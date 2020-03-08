@@ -2,10 +2,10 @@
 
 namespace App\Console\Commands;
 
+use Carbon\Carbon;
 use Illuminate\Console\Command;
 use mpyw\Cowitter\Client;
 use Revolution\Google\Photos\Contracts\Factory as Photos;
-use Carbon\Carbon;
 
 class Download extends Command
 {
