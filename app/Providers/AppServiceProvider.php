@@ -2,12 +2,12 @@
 
 namespace App\Providers;
 
-use mpyw\Cowitter\Client;
-use Illuminate\Support\ServiceProvider;
-use Revolution\Google\Photos\Facades\Photos;
+use Google_Service_PhotosLibrary_BatchCreateMediaItemsRequest as BatchCreateMediaItemsRequest;
 use Google_Service_PhotosLibrary_NewMediaItem as NewMediaItem;
 use Google_Service_PhotosLibrary_SimpleMediaItem as SimpleMediaItem;
-use Google_Service_PhotosLibrary_BatchCreateMediaItemsRequest as BatchCreateMediaItemsRequest;
+use Illuminate\Support\ServiceProvider;
+use mpyw\Cowitter\Client;
+use Revolution\Google\Photos\Facades\Photos;
 
 class AppServiceProvider extends ServiceProvider
 {
