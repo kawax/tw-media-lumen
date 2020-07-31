@@ -2299,16 +2299,16 @@
         },
         {
             "name": "nao-pon/flysystem-google-drive",
-            "version": "1.1.12",
+            "version": "1.1.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nao-pon/flysystem-google-drive.git",
-                "reference": "f55cd5edc52f767bb612c615189e2b52e459721d"
+                "reference": "bb812339ecf06540ed096f71403f10fcbcc590f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nao-pon/flysystem-google-drive/zipball/f55cd5edc52f767bb612c615189e2b52e459721d",
-                "reference": "f55cd5edc52f767bb612c615189e2b52e459721d",
+                "url": "https://api.github.com/repos/nao-pon/flysystem-google-drive/zipball/bb812339ecf06540ed096f71403f10fcbcc590f3",
+                "reference": "bb812339ecf06540ed096f71403f10fcbcc590f3",
                 "shasum": ""
             },
             "require": {
@@ -2344,7 +2344,7 @@
                 }
             ],
             "description": "Flysystem adapter for Google Drive",
-            "time": "2020-03-05T02:25:41+00:00"
+            "time": "2020-07-30T01:26:26+00:00"
         },
         {
             "name": "nesbot/carbon",
