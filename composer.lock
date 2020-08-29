@@ -3247,28 +3247,28 @@
         },
         {
             "name": "revolution/laravel-google-photos",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-google-photos.git",
-                "reference": "78ea31ae895337d8efa578d3105a9ed52fa062dc"
+                "reference": "963fb306f6ef026181c4f0212eed22b31f882847"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-google-photos/zipball/78ea31ae895337d8efa578d3105a9ed52fa062dc",
-                "reference": "78ea31ae895337d8efa578d3105a9ed52fa062dc",
+                "url": "https://api.github.com/repos/kawax/laravel-google-photos/zipball/963fb306f6ef026181c4f0212eed22b31f882847",
+                "reference": "963fb306f6ef026181c4f0212eed22b31f882847",
                 "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.3||^7.0",
-                "illuminate/container": "^6.0||^7.0",
-                "illuminate/support": "^6.0||^7.0",
+                "illuminate/container": "^6.0||^7.0||^8.0",
+                "illuminate/support": "^6.0||^7.0||^8.0",
                 "php": "^7.2||^8.0",
                 "pulkitjalan/google-apiclient": "^4.0"
             },
             "require-dev": {
                 "mockery/mockery": "^1.0",
-                "orchestra/testbench": "^4.0||^5.0",
+                "orchestra/testbench": "^4.0||^5.0||^6.0",
                 "phpunit/phpunit": "^8.0||^9.0"
             },
             "type": "library",
@@ -3303,7 +3303,7 @@
                 "laravel",
                 "photos"
             ],
-            "time": "2020-04-27T10:05:00+00:00"
+            "time": "2020-08-28T07:04:40+00:00"
         },
         {
             "name": "symfony/console",
