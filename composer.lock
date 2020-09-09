@@ -337,16 +337,16 @@
         },
         {
             "name": "google/apiclient",
-            "version": "v2.7.0",
+            "version": "v2.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client.git",
-                "reference": "48ec94577b51bde415270116118b07a294e07c43"
+                "reference": "e748d1d5a51166754f13809d35f1fa162cbec530"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client/zipball/48ec94577b51bde415270116118b07a294e07c43",
-                "reference": "48ec94577b51bde415270116118b07a294e07c43",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client/zipball/e748d1d5a51166754f13809d35f1fa162cbec530",
+                "reference": "e748d1d5a51166754f13809d35f1fa162cbec530",
                 "shasum": ""
             },
             "require": {
@@ -395,7 +395,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2020-07-23T21:37:43+00:00"
+            "time": "2020-09-08T16:38:08+00:00"
         },
         {
             "name": "google/apiclient-services",
@@ -436,16 +436,16 @@
         },
         {
             "name": "google/auth",
-            "version": "v1.11.1",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-auth-library-php.git",
-                "reference": "bb959e91bd8ffbd352ab76cbf11d656ce6435088"
+                "reference": "74cad289014f7ef747618480f6b59f6303357f34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/bb959e91bd8ffbd352ab76cbf11d656ce6435088",
-                "reference": "bb959e91bd8ffbd352ab76cbf11d656ce6435088",
+                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/74cad289014f7ef747618480f6b59f6303357f34",
+                "reference": "74cad289014f7ef747618480f6b59f6303357f34",
                 "shasum": ""
             },
             "require": {
@@ -484,7 +484,7 @@
                 "google",
                 "oauth2"
             ],
-            "time": "2020-07-27T18:33:35+00:00"
+            "time": "2020-09-08T16:33:56+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -691,7 +691,7 @@
         },
         {
             "name": "illuminate/auth",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/auth.git",
@@ -742,7 +742,7 @@
         },
         {
             "name": "illuminate/broadcasting",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/broadcasting.git",
@@ -793,7 +793,7 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -838,7 +838,7 @@
         },
         {
             "name": "illuminate/cache",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
@@ -889,7 +889,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -933,7 +933,7 @@
         },
         {
             "name": "illuminate/console",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
@@ -987,7 +987,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -1031,7 +1031,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -1075,16 +1075,16 @@
         },
         {
             "name": "illuminate/database",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "89dfc65582205a9d92ab28de4f6f3fc161d67f20"
+                "reference": "513777f382c080c6c172e2d6d43e7ad9b9cdea7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/89dfc65582205a9d92ab28de4f6f3fc161d67f20",
-                "reference": "89dfc65582205a9d92ab28de4f6f3fc161d67f20",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/513777f382c080c6c172e2d6d43e7ad9b9cdea7b",
+                "reference": "513777f382c080c6c172e2d6d43e7ad9b9cdea7b",
                 "shasum": ""
             },
             "require": {
@@ -1132,11 +1132,11 @@
                 "orm",
                 "sql"
             ],
-            "time": "2020-08-31T13:21:53+00:00"
+            "time": "2020-09-07T02:44:31+00:00"
         },
         {
             "name": "illuminate/encryption",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/encryption.git",
@@ -1183,7 +1183,7 @@
         },
         {
             "name": "illuminate/events",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -1228,7 +1228,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -1281,7 +1281,7 @@
         },
         {
             "name": "illuminate/hashing",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/hashing.git",
@@ -1325,7 +1325,7 @@
         },
         {
             "name": "illuminate/http",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/http.git",
@@ -1375,7 +1375,7 @@
         },
         {
             "name": "illuminate/log",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/log.git",
@@ -1420,7 +1420,7 @@
         },
         {
             "name": "illuminate/pagination",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pagination.git",
@@ -1465,7 +1465,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -1510,7 +1510,7 @@
         },
         {
             "name": "illuminate/queue",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/queue.git",
@@ -1570,7 +1570,7 @@
         },
         {
             "name": "illuminate/session",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/session.git",
@@ -1621,7 +1621,7 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -1682,16 +1682,16 @@
         },
         {
             "name": "illuminate/translation",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/translation.git",
-                "reference": "4c9b20d6a7580730ecfbadbaab154f43999ca39e"
+                "reference": "ee660e8dae7f66829effd874ff2da115e679397f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/translation/zipball/4c9b20d6a7580730ecfbadbaab154f43999ca39e",
-                "reference": "4c9b20d6a7580730ecfbadbaab154f43999ca39e",
+                "url": "https://api.github.com/repos/illuminate/translation/zipball/ee660e8dae7f66829effd874ff2da115e679397f",
+                "reference": "ee660e8dae7f66829effd874ff2da115e679397f",
                 "shasum": ""
             },
             "require": {
@@ -1724,11 +1724,11 @@
             ],
             "description": "The Illuminate Translation package.",
             "homepage": "https://laravel.com",
-            "time": "2020-08-13T14:33:00+00:00"
+            "time": "2020-09-04T13:24:42+00:00"
         },
         {
             "name": "illuminate/validation",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/validation.git",
@@ -1780,7 +1780,7 @@
         },
         {
             "name": "illuminate/view",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
@@ -2706,16 +2706,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.28",
+            "version": "2.0.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "d1ca58cf33cb21046d702ae3a7b14fdacd9f3260"
+                "reference": "497856a8d997f640b4a516062f84228a772a48a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/d1ca58cf33cb21046d702ae3a7b14fdacd9f3260",
-                "reference": "d1ca58cf33cb21046d702ae3a7b14fdacd9f3260",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/497856a8d997f640b4a516062f84228a772a48a8",
+                "reference": "497856a8d997f640b4a516062f84228a772a48a8",
                 "shasum": ""
             },
             "require": {
@@ -2724,7 +2724,6 @@
             "require-dev": {
                 "phing/phing": "~2.7",
                 "phpunit/phpunit": "^4.8.35|^5.7|^6.0",
-                "sami/sami": "~2.0",
                 "squizlabs/php_codesniffer": "~2.0"
             },
             "suggest": {
@@ -2808,7 +2807,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-08T09:08:33+00:00"
+            "time": "2020-09-08T04:24:43+00:00"
         },
         {
             "name": "psr/cache",
@@ -4702,16 +4701,16 @@
         },
         {
             "name": "symfony/service-contracts",
-            "version": "v2.1.3",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "58c7475e5457c5492c26cc740cc0ad7464be9442"
+                "reference": "d15da7ba4957ffb8f1747218be9e1a121fd298a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/58c7475e5457c5492c26cc740cc0ad7464be9442",
-                "reference": "58c7475e5457c5492c26cc740cc0ad7464be9442",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/d15da7ba4957ffb8f1747218be9e1a121fd298a1",
+                "reference": "d15da7ba4957ffb8f1747218be9e1a121fd298a1",
                 "shasum": ""
             },
             "require": {
@@ -4724,7 +4723,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -4774,7 +4773,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-06T13:23:11+00:00"
+            "time": "2020-09-07T11:33:47+00:00"
         },
         {
             "name": "symfony/translation",
@@ -4868,16 +4867,16 @@
         },
         {
             "name": "symfony/translation-contracts",
-            "version": "v2.1.3",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation-contracts.git",
-                "reference": "616a9773c853097607cf9dd6577d5b143ffdcd63"
+                "reference": "77ce1c3627c9f39643acd9af086631f842c50c4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/616a9773c853097607cf9dd6577d5b143ffdcd63",
-                "reference": "616a9773c853097607cf9dd6577d5b143ffdcd63",
+                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/77ce1c3627c9f39643acd9af086631f842c50c4d",
+                "reference": "77ce1c3627c9f39643acd9af086631f842c50c4d",
                 "shasum": ""
             },
             "require": {
@@ -4889,7 +4888,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -4939,7 +4938,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-06T13:23:11+00:00"
+            "time": "2020-09-07T11:33:47+00:00"
         },
         {
             "name": "symfony/var-dumper",
