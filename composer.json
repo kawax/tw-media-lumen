@@ -9,7 +9,8 @@
         "laravel/lumen-framework": "^6.0",
         "mpyw/cowitter": "^1.0",
         "nao-pon/flysystem-google-drive": "^1.1",
-        "revolution/laravel-google-photos": "^3.0"
+        "revolution/laravel-google-photos": "^3.0",
+        "revolution/laravel-line-sdk": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "^1.4",
