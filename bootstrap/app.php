@@ -100,9 +100,11 @@ $app->register(Revolution\Line\Providers\LineServiceProvider::class);
 |
 */
 
-$app->router->group([
+$app->router->group(
+    [
         'namespace' => 'App\Http\Controllers',
-    ], function ($router) {
+    ],
+    function ($router) {
         require __DIR__.'/../routes/web.php';
     }
 );
