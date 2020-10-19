@@ -405,16 +405,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.150",
+            "version": "v0.151",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "765bfb40c7a00e8fd891ff1969bade6e3c0889fc"
+                "reference": "784a4fdb110b67a2344cfbdbf927194bd29f9e73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/765bfb40c7a00e8fd891ff1969bade6e3c0889fc",
-                "reference": "765bfb40c7a00e8fd891ff1969bade6e3c0889fc",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/784a4fdb110b67a2344cfbdbf927194bd29f9e73",
+                "reference": "784a4fdb110b67a2344cfbdbf927194bd29f9e73",
                 "shasum": ""
             },
             "require": {
@@ -438,7 +438,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2020-10-11T00:26:14+00:00"
+            "time": "2020-10-19T00:26:26+00:00"
         },
         {
             "name": "google/auth",
@@ -2141,16 +2141,16 @@
         },
         {
             "name": "league/mime-type-detection",
-            "version": "1.5.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/mime-type-detection.git",
-                "reference": "ea2fbfc988bade315acd5967e6d02274086d0f28"
+                "reference": "353f66d7555d8a90781f6f5e7091932f9a4250aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/ea2fbfc988bade315acd5967e6d02274086d0f28",
-                "reference": "ea2fbfc988bade315acd5967e6d02274086d0f28",
+                "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/353f66d7555d8a90781f6f5e7091932f9a4250aa",
+                "reference": "353f66d7555d8a90781f6f5e7091932f9a4250aa",
                 "shasum": ""
             },
             "require": {
@@ -2188,7 +2188,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-21T18:10:53+00:00"
+            "time": "2020-10-18T11:50:25+00:00"
         },
         {
             "name": "league/oauth1-client",
@@ -3551,12 +3551,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-line-sdk.git",
-                "reference": "8e44b77873445b18c66a720a588b81d884cda90a"
+                "reference": "25ab300d080eca5a035aa9bb99fe54dcf1c382f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-line-sdk/zipball/8e44b77873445b18c66a720a588b81d884cda90a",
-                "reference": "8e44b77873445b18c66a720a588b81d884cda90a",
+                "url": "https://api.github.com/repos/kawax/laravel-line-sdk/zipball/25ab300d080eca5a035aa9bb99fe54dcf1c382f1",
+                "reference": "25ab300d080eca5a035aa9bb99fe54dcf1c382f1",
                 "shasum": ""
             },
             "require": {
@@ -3573,7 +3573,10 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Revolution\\Line\\Providers\\LineServiceProvider"
+                        "Revolution\\Line\\Providers\\LineServiceProvider",
+                        "Revolution\\Line\\Providers\\LineSocialiteServiceProvider",
+                        "Revolution\\Line\\Providers\\RouteServiceProvider",
+                        "Revolution\\Line\\Providers\\MacroServiceProvider"
                     ]
                 }
             },
@@ -3599,7 +3602,7 @@
                 "line",
                 "sdk"
             ],
-            "time": "2020-10-18T07:32:47+00:00"
+            "time": "2020-10-19T03:44:31+00:00"
         },
         {
             "name": "symfony/console",
