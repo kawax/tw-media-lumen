@@ -87,6 +87,7 @@ $app->register(PulkitJalan\Google\GoogleServiceProvider::class);
 $app->register(Revolution\Google\Photos\Providers\PhotosServiceProvider::class);
 $app->register(App\Providers\GoogleDriveServiceProvider::class);
 $app->register(Revolution\Line\Providers\LineServiceProvider::class);
+//$app->register(Revolution\Line\Providers\MacroServiceProvider::class);
 
 /*
 |--------------------------------------------------------------------------
@@ -99,10 +100,15 @@ $app->register(Revolution\Line\Providers\LineServiceProvider::class);
 |
 */
 
-$app->router->group([
-    'namespace' => 'App\Http\Controllers',
-], function ($router) {
-    require __DIR__.'/../routes/web.php';
-});
+$app->router->group(
+    [
+        'namespace' => 'App\Http\Controllers',
+    ],
+    function ($router) {
+        require __DIR__.'/../routes/web.php';
+    }
+);
+
+$app->router->post(config('line.bot.path'), Revolution\Line\Messaging\Http\Controllers\WebhookController::class);
 
 return $app;
