@@ -22,7 +22,7 @@ class ExampleTest extends TestCase
 
     public function testLineWebhook()
     {
-        $response = $this->post( '/line/webhook');
+        $response = $this->json('post', '/line/webhook');
 
         $response->assertResponseStatus(400);
     }
