@@ -109,9 +109,16 @@ $app->router->group(
     }
 );
 
-$app->router->post(
-    config('line.bot.path'),
-    Revolution\Line\Messaging\Http\Controllers\WebhookController::class
+$app->router->group(
+    [
+        'middleware' => Revolution\Line\Messaging\Http\Middleware\ValidateSignature::class,
+    ],
+    function ($router) {
+        $router->post(
+            config('line.bot.path'),
+            Revolution\Line\Messaging\Http\Controllers\WebhookController::class
+        );
+    }
 );
 
 return $app;

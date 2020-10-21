@@ -22,7 +22,8 @@ class ExampleTest extends TestCase
 
     public function testLineWebhook()
     {
-        $this->post('/line/webhook')
-             ->assertResponseStatus(400);
+        $response = $this->post( '/line/webhook');
+
+        $response->assertResponseStatus(400);
     }
 }
