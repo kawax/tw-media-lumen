@@ -1938,16 +1938,16 @@
         },
         {
             "name": "laravel/socialite",
-            "version": "v5.0.2",
+            "version": "v5.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/socialite.git",
-                "reference": "87dfaaa0e0a85b707582e4f9bc8dab9664dcb0a4"
+                "reference": "8197acf2fe5446a2800b95d250c1da72fd6051bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/socialite/zipball/87dfaaa0e0a85b707582e4f9bc8dab9664dcb0a4",
-                "reference": "87dfaaa0e0a85b707582e4f9bc8dab9664dcb0a4",
+                "url": "https://api.github.com/repos/laravel/socialite/zipball/8197acf2fe5446a2800b95d250c1da72fd6051bc",
+                "reference": "8197acf2fe5446a2800b95d250c1da72fd6051bc",
                 "shasum": ""
             },
             "require": {
@@ -1999,7 +1999,7 @@
                 "laravel",
                 "oauth"
             ],
-            "time": "2020-10-20T18:53:05+00:00"
+            "time": "2020-10-21T12:45:02+00:00"
         },
         {
             "name": "league/flysystem",
@@ -3547,16 +3547,16 @@
         },
         {
             "name": "revolution/laravel-line-sdk",
-            "version": "1.2.1",
+            "version": "1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-line-sdk.git",
-                "reference": "3a0b70e64ba4ad3747de707e6e19261517c13c6f"
+                "reference": "c5f0a9da3212e1f0c9d6ab729cfe425e17771784"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-line-sdk/zipball/3a0b70e64ba4ad3747de707e6e19261517c13c6f",
-                "reference": "3a0b70e64ba4ad3747de707e6e19261517c13c6f",
+                "url": "https://api.github.com/repos/kawax/laravel-line-sdk/zipball/c5f0a9da3212e1f0c9d6ab729cfe425e17771784",
+                "reference": "c5f0a9da3212e1f0c9d6ab729cfe425e17771784",
                 "shasum": ""
             },
             "require": {
@@ -3602,7 +3602,7 @@
                 "line",
                 "sdk"
             ],
-            "time": "2020-10-21T00:16:29+00:00"
+            "time": "2020-10-21T09:33:22+00:00"
         },
         {
             "name": "symfony/console",
