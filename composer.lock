@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a899ea71555a2087bfbb38db11afd56",
+    "content-hash": "a6e591400bb6f56217cd9635af34921f",
     "packages": [
         {
             "name": "brick/math",
@@ -2318,62 +2318,6 @@
             "time": "2020-11-02T14:01:41+00:00"
         },
         {
-            "name": "laravel/legacy-factories",
-            "version": "v1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/legacy-factories.git",
-                "reference": "5e3fe2fd5fda64e20ea5c74c831a7346294e902a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/legacy-factories/zipball/5e3fe2fd5fda64e20ea5c74c831a7346294e902a",
-                "reference": "5e3fe2fd5fda64e20ea5c74c831a7346294e902a",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/macroable": "^8.0",
-                "php": "^7.3|^8.0",
-                "symfony/finder": "^3.4|^4.0|^5.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                },
-                "laravel": {
-                    "providers": [
-                        "Illuminate\\Database\\Eloquent\\LegacyFactoryServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "files": [
-                    "helpers.php"
-                ],
-                "psr-4": {
-                    "Illuminate\\Database\\Eloquent\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylor@laravel.com"
-                }
-            ],
-            "description": "The legacy version of the Laravel Eloquent factories.",
-            "homepage": "http://laravel.com",
-            "support": {
-                "issues": "https://github.com/laravel/framework/issues",
-                "source": "https://github.com/laravel/framework"
-            },
-            "time": "2020-10-27T14:25:32+00:00"
-        },
-        {
             "name": "laravel/lumen-framework",
             "version": "v8.2.3",
             "source": {
@@ -4077,6 +4021,71 @@
             "time": "2017-10-23T01:57:42+00:00"
         },
         {
+            "name": "pulkitjalan/google-apiclient",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pulkitjalan/google-apiclient.git",
+                "reference": "5662f12cef16e379c11bb77cadedb2438e625843"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pulkitjalan/google-apiclient/zipball/5662f12cef16e379c11bb77cadedb2438e625843",
+                "reference": "5662f12cef16e379c11bb77cadedb2438e625843",
+                "shasum": ""
+            },
+            "require": {
+                "google/apiclient": "^2.4",
+                "illuminate/support": "^5.8|^6.0|^7.0|^8.0",
+                "php": "^7.2|^8.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.2.3",
+                "phpunit/phpunit": "^8.3"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.1.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "PulkitJalan\\Google\\GoogleServiceProvider"
+                    ],
+                    "aliases": {
+                        "Google": "PulkitJalan\\Google\\Facades\\Google"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PulkitJalan\\Google\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pulkit Jalan"
+                }
+            ],
+            "description": "Google api php client wrapper with Cloud Platform and Laravel support",
+            "homepage": "https://github.com/pulkitjalan/google-apiclient",
+            "keywords": [
+                "cloud platform",
+                "google",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/pulkitjalan/google-apiclient/issues",
+                "source": "https://github.com/pulkitjalan/google-apiclient/tree/master"
+            },
+            "time": "2021-03-12T07:18:44+00:00"
+        },
+        {
             "name": "ralouphie/getallheaders",
             "version": "3.0.3",
             "source": {
@@ -4341,16 +4350,16 @@
         },
         {
             "name": "revolution/laravel-google-photos",
-            "version": "3.2.1",
+            "version": "3.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-google-photos.git",
-                "reference": "c1d1cff913e6f83d555adfe7203779bb6729861d"
+                "reference": "796fedb0d1d98e1f441c16eb074cb13a0bc8a111"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-google-photos/zipball/c1d1cff913e6f83d555adfe7203779bb6729861d",
-                "reference": "c1d1cff913e6f83d555adfe7203779bb6729861d",
+                "url": "https://api.github.com/repos/kawax/laravel-google-photos/zipball/796fedb0d1d98e1f441c16eb074cb13a0bc8a111",
+                "reference": "796fedb0d1d98e1f441c16eb074cb13a0bc8a111",
                 "shasum": ""
             },
             "require": {
@@ -4358,7 +4367,8 @@
                 "guzzlehttp/guzzle": "^6.3||^7.0",
                 "illuminate/container": "^6.0||^7.0||^8.0",
                 "illuminate/support": "^6.0||^7.0||^8.0",
-                "php": "^7.3||^8.0"
+                "php": "^7.3||^8.0",
+                "pulkitjalan/google-apiclient": "^4.1@dev"
             },
             "require-dev": {
                 "mockery/mockery": "^1.0",
@@ -4369,8 +4379,7 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Revolution\\Google\\Photos\\Providers\\PhotosServiceProvider",
-                        "PulkitJalan\\Google\\GoogleServiceProvider"
+                        "Revolution\\Google\\Photos\\Providers\\PhotosServiceProvider"
                     ],
                     "aliases": {
                         "Photos": "Revolution\\Google\\Photos\\Facades\\Photos"
@@ -4379,8 +4388,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Revolution\\Google\\Photos\\": "src/",
-                    "PulkitJalan\\Google\\": "lib/google-apiclient/src"
+                    "Revolution\\Google\\Photos\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4401,9 +4409,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/laravel-google-photos/issues",
-                "source": "https://github.com/kawax/laravel-google-photos/tree/3.2.1"
+                "source": "https://github.com/kawax/laravel-google-photos/tree/3.2.2"
             },
-            "time": "2021-03-02T02:38:26+00:00"
+            "time": "2021-04-19T06:55:04+00:00"
         },
         {
             "name": "revolution/laravel-line-sdk",
@@ -6803,6 +6811,62 @@
                 "source": "https://github.com/hamcrest/hamcrest-php/tree/v2.0.1"
             },
             "time": "2020-07-09T08:09:16+00:00"
+        },
+        {
+            "name": "laravel/legacy-factories",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/legacy-factories.git",
+                "reference": "5e3fe2fd5fda64e20ea5c74c831a7346294e902a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/legacy-factories/zipball/5e3fe2fd5fda64e20ea5c74c831a7346294e902a",
+                "reference": "5e3fe2fd5fda64e20ea5c74c831a7346294e902a",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/macroable": "^8.0",
+                "php": "^7.3|^8.0",
+                "symfony/finder": "^3.4|^4.0|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Illuminate\\Database\\Eloquent\\LegacyFactoryServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "helpers.php"
+                ],
+                "psr-4": {
+                    "Illuminate\\Database\\Eloquent\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The legacy version of the Laravel Eloquent factories.",
+            "homepage": "http://laravel.com",
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
+            "time": "2020-10-27T14:25:32+00:00"
         },
         {
             "name": "mockery/mockery",
