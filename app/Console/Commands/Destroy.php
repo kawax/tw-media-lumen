@@ -42,6 +42,7 @@ class Destroy extends Command
      * Execute the console command.
      *
      * @return void
+     *
      * @throws
      */
     public function handle()
