@@ -5,12 +5,11 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": "^7.3||^8.0",
+        "php": "^8.0",
         "laravel/lumen-framework": "^8.0",
         "mpyw/cowitter": "^1.0",
         "nao-pon/flysystem-google-drive": "^1.1",
-        "revolution/laravel-google-photos": "^3.0",
-        "revolution/laravel-line-sdk": "^1.0"
+        "revolution/laravel-google-photos": "^3.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.4",
@@ -40,7 +39,10 @@
     "config": {
         "preferred-install": "dist",
         "sort-packages": true,
-        "optimize-autoloader": true
+        "optimize-autoloader": true,
+        "platform": {
+            "ext-sockets": "1.0.0"
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
