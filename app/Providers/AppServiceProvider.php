@@ -2,9 +2,9 @@
 
 namespace App\Providers;
 
-use Google_Service_PhotosLibrary_BatchCreateMediaItemsRequest as BatchCreateMediaItemsRequest;
-use Google_Service_PhotosLibrary_NewMediaItem as NewMediaItem;
-use Google_Service_PhotosLibrary_SimpleMediaItem as SimpleMediaItem;
+use Google\Service\PhotosLibrary\BatchCreateMediaItemsRequest;
+use Google\Service\PhotosLibrary\NewMediaItem;
+use Google\Service\PhotosLibrary\SimpleMediaItem;
 use Illuminate\Support\ServiceProvider;
 use mpyw\Cowitter\Client;
 use Revolution\Google\Photos\Facades\Photos;
