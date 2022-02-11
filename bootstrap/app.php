@@ -86,8 +86,6 @@ $app->register(App\Providers\AppServiceProvider::class);
 $app->register(PulkitJalan\Google\GoogleServiceProvider::class);
 $app->register(Revolution\Google\Photos\Providers\PhotosServiceProvider::class);
 $app->register(App\Providers\GoogleDriveServiceProvider::class);
-$app->register(Revolution\Line\Providers\LineServiceProvider::class);
-//$app->register(Revolution\Line\Providers\MacroServiceProvider::class);
 
 /*
 |--------------------------------------------------------------------------
@@ -106,18 +104,6 @@ $app->router->group(
     ],
     function ($router) {
         require __DIR__.'/../routes/web.php';
-    }
-);
-
-$app->router->group(
-    [
-        'middleware' => Revolution\Line\Messaging\Http\Middleware\ValidateSignature::class,
-    ],
-    function ($router) {
-        $router->post(
-            config('line.bot.path'),
-            Revolution\Line\Messaging\Http\Controllers\WebhookController::class
-        );
     }
 );
 
