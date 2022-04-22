@@ -1,5 +1,7 @@
 <?php
 
+use Google\Service\PhotosLibrary;
+
 return [
     /*
     |----------------------------------------------------------------------------
@@ -20,7 +22,7 @@ return [
     'client_id'        => env('GOOGLE_CLIENT_ID', ''),
     'client_secret'    => env('GOOGLE_CLIENT_SECRET', ''),
     'redirect_uri'     => env('GOOGLE_REDIRECT', ''),
-    'scopes'           => [\Google_Service_PhotosLibrary::PHOTOSLIBRARY],
+    'scopes'           => [PhotosLibrary::PHOTOSLIBRARY],
     'access_type'      => 'offline',
     'approval_prompt'  => 'force',
     'prompt'           => 'consent', //"none", "consent", "select_account" default:none

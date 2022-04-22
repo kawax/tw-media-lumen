@@ -19,11 +19,4 @@ class ExampleTest extends TestCase
             $this->response->getContent()
         );
     }
-
-    public function testLineWebhook()
-    {
-        $response = $this->json('post', '/line/webhook');
-
-        $response->assertResponseStatus(400);
-    }
 }
