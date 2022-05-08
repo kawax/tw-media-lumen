@@ -8,7 +8,6 @@
         "php": "^8.0",
         "laravel/lumen-framework": "^9.0",
         "mpyw/cowitter": "^1.0",
-        "nao-pon/flysystem-google-drive": "^1.1",
         "revolution/laravel-google-photos": "^4.0"
     },
     "require-dev": {

@@ -85,7 +85,7 @@ $app->register(App\Providers\AppServiceProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
 $app->register(PulkitJalan\Google\GoogleServiceProvider::class);
 $app->register(Revolution\Google\Photos\Providers\PhotosServiceProvider::class);
-$app->register(App\Providers\GoogleDriveServiceProvider::class);
+//$app->register(App\Providers\GoogleDriveServiceProvider::class);
 
 /*
 |--------------------------------------------------------------------------
